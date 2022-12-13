@@ -105,3 +105,15 @@ hr{
     height: 0.5px;
     
 }
+
+
+@media screen and (max-width:500px) {
+    .banner{
+        height: 50vh;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding-top: 4rem;
+        
+    }
+}
