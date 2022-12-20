@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gradiente1{
+    width:300px;
+    height:300px;
+    /* vamos a iniciar con 2 valores tipo color */
+    background: linear-gradient(
+        45deg,
+        red,
+        blue,
+        #000,
+        #fff,
+        green
+    );
+    color: #fff;
+    font-weight: bold;
+}
+.gradiente2{
+    width:300px;
+    height:300px;
+    /* vamos a iniciar con 2 valores tipo color */
+    background: linear-gradient(
+        to left top,
+        #000,
+        #f00,
+        #0f0,
+        #ff0
+    );
+    color:#fff;
+}
+
+.gradiente3{
+    width: 500px;
+    height: 500px;
+    border: solid;
+    background: linear-gradient(360deg,);
+}
